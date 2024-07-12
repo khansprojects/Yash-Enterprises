@@ -1,0 +1,19 @@
+.home {
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(application_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.home .container {
+    margin: auto;
+    padding: 1.5rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+}

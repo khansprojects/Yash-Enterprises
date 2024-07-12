@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Enterprises/Application</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="application.css">
+</head>
+
+<body>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+
+        <div class="container">
+
+            <form class="row g-3">
+
+                <div class="col-md-4">
+                    <label for="first_name" class="form-label">First Name: </label>
+                    <input type="text" class="form-control" id="first_name" required="required">
+                </div>
+                <div class="col-md-4">
+                    <label for="middle_name" class="form-label">Middle Name: </label>
+                    <input type="text" class="form-control" id="middle_name" required="required">
+                </div>
+                <div class="col-md-4">
+                    <label for="last_name" class="form-label">Last Name: </label>
+                    <input type="text" class="form-control" id="last_name" required="required">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="date_of_birth" class="form-label">Date Of Birth: </label>
+                    <input type="date" class="form-control" id="date_of_birth" required="required">
+                </div>
+                <div class="col-md-6">
+                    <label for="contact_number" class="form-label">Contact Number: </label>
+                    <input type="text" class="form-control" id="contact_number" required="required">
+                </div>
+                <div class="col-md-6">
+                    <label for="aadhar_number" class="form-label">Aadhar Number: </label>
+                    <input type="text" class="form-control" id="aadhar_number" required="required">
+                </div>
+                <div class="col-md-6">
+                    <label for="pan_number" class="form-label">Pan Number: </label>
+                    <input type="text" class="form-control" id="pan_number" required="required">
+                </div>
+                <div class="col-md-4">
+                    <label for="qualification" class="form-label">Qualification: </label>
+                    <input type="text" class="form-control" id="qualification" required="required">
+                </div>
+                <div class="col-md-4">
+                    <label for="university_name" class="form-label">University Name: </label>
+                    <input type="text" class="form-control" id="university_name" required="required">
+                </div>
+                <div class="col-md-4">
+                    <label for="passing_year" class="form-label">Passing Year: </label>
+                    <input type="text" class="form-control" id="passing_year" required="required">
+                </div>
+
+                <div class="col-md-4">
+                    <label for="marital_status" class="form-label">Marital Status: </label>
+                    <input type="text" class="form-control" id="marital_status" required="required">
+                </div>
+                <div class="col-md-4">
+                    <label for="spouse_name" class="form-label">Spouse Name: </label>
+                    <input type="text" class="form-control" id="spouse_name">
+                </div>
+                <div class="col-md-4">
+                    <label for="spouse_dob" class="form-label">Spouse DOB: </label>
+                    <input type="date" class="form-control" id="spouse_dob">
+                </div>
+                <div class="col-md-4">
+                    <label for="father_name" class="form-label">Father Name: </label>
+                    <input type="text" class="form-control" id="father_name" required="required">
+                </div>
+                <div class="col-md-4">
+                    <label for="mother_name" class="form-label">Mother Name: </label>
+                    <input type="text" class="form-control" id="mother_name" required="required">
+                </div>
+                <div class="col-md-4">
+                    <label for="num_of_dependents" class="form-label">Number Of Dependents: </label>
+                    <input type="number" class="form-control" id="num_of_dependents" required="required">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="type_of_residence" class="form-label">Type of Residence (Owned/Rented/Parental/Pagdi):
+                    </label>
+                    <input type="text" class="form-control" id="type_of_residence" required="required">
+                </div>
+                <div class="col-md-6">
+                    <label for="rent_amount" class="form-label">Rent Amount: </label>
+                    <input type="text" class="form-control" id="rent_amount" required="required">
+                </div>
+                <div class="col-md-6">
+                    <label for="num_years_at_c_address" class="form-label">Number of years at current residence:
+                    </label>
+                    <input type="number" class="form-control" id="num_years_at_c_address" required="required">
+                </div>
+                <div class="col-md-6">
+                    <label for="num_years_at_city" class="form-label">Number of years at current city: </label>
+                    <input type="number" class="form-control" id="num_years_at_city" required="required">
+                </div>
+                <div class="col-md-12">
+                    <label for="curr_address" class="form-label">Current Residence Address with Landmark: </label>
+                    <input type="text" class="form-control" id="curr_address" required="required">
+                </div>
+                <div class="col-12">
+                    <label for="per_address" class="form-label">Permanent Residence Address with Landmark and Contact
+                        Number: </label>
+                    <input type="text" class="form-control" id="per_address" required="required">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="email_official" class="form-label">Email ID (OFFICIAL): </label>
+                    <input type="email" class="form-control" id="email_official" required="required">
+                </div>
+                <div class="col-md-6">
+                    <label for="email_personal" class="form-label">Email ID (PERSONAL): </label>
+                    <input type="email" class="form-control" id="email_personal" required="required">
+                </div>
+                <div class="col-md-6">
+                    <label for="company_name" class="form-label">Company Name: </label>
+                    <input type="text" class="form-control" id="company_name" required="required">
+                </div>
+                <div class="col-md-6">
+                    <label for="Office_landline_number" class="form-label">Office Landline Number: </label>
+                    <input type="text" class="form-control" id="Office_landline_number" required="required">
+                </div>
+                <div class="col-md-6">
+                    <label for="net_salary" class="form-label">Gross/Net Salary: </label>
+                    <input type="text" class="form-control" id="net_salary" required="required">
+                </div>
+                <div class="col-md-6">
+                    <label for="num_years_at_cur_office" class="form-label">Number of years at current office: </label>
+                    <input type="number" class="form-control" id="num_years_at_cur_office" required="required">
+                </div>
+                <div class="col-12">
+                    <label for="office_address" class="form-label">Office Address with Landmark: </label>
+                    <input type="text" class="form-control" id="office_address" required="required">
+                </div>
+
+                <!-- <div>
+                    <h5>Bank Details: </h5>
+                </div> -->
+                <div class="col-md-6">
+                    <label for="bank_name" class="form-label">Bank Name: </label>
+                    <input type="text" class="form-control" id="bank_name" required="required">
+                </div>
+                <div class="col-md-6">
+                    <label for="acc_number" class="form-label">A/c Number: </label>
+                    <input type="text" class="form-control" id="acc_number" required="required">
+                </div>
+                <div class="col-md-6">
+                    <label for="ifsc_code" class="form-label">IFSC Code: </label>
+                    <input type="text" class="form-control" id="ifsc_code" required="required">
+                </div>
+                <div class="col-md-6">
+                    <label for="openend_year" class="form-label">Openend Year: </label>
+                    <input type="number" class="form-control" id="openend_year" required="required">
+                </div>
+                <div class="col-md-12">
+                    <label for="branch_name" class="form-label">Branch Name: </label>
+                    <input type="text" class="form-control" id="branch_name" required="required">
+                </div>
+
+                <!-- <div>
+                    <h5>References (1 friend and 1 relative): </h5>
+                </div> -->
+                <div class="col-md-6">
+                    <label for="name_relative" class="form-label">Name (Relative): </label>
+                    <input type="text" class="form-control" id="name_relative" required="required">
+                </div>
+                <div class="col-md-6">
+                    <label for="contact_relative" class="form-label">Contact Number: </label>
+                    <input type="text" class="form-control" id="contact_relative" required="required">
+                </div>
+                <div class="col-md-12">
+                    <label for="address_relative" class="form-label">Address: </label>
+                    <input type="text" class="form-control" id="address_relative" required="required">
+                </div>
+                <div class="col-md-6">
+                    <label for="name_friend" class="form-label">Name (Friend): </label>
+                    <input type="text" class="form-control" id="name_friend" required="required">
+                </div>
+                <div class="col-md-6">
+                    <label for="contact_friend" class="form-label">Contact Number: </label>
+                    <input type="text" class="form-control" id="contact_friend" required="required">
+                </div>
+                <div class="col-md-12">
+                    <label for="address_friend" class="form-label">Address: </label>
+                    <input type="text" class="form-control" id="address_friend" required="required">
+                </div>
+
+                <!-- <div>
+                    <h5>Trade References (1 Creditor and 1 Debitor): </h5>
+                </div> -->
+                <div class="col-md-6">
+                    <label for="name_creditor" class="form-label">Name (Creditor): </label>
+                    <input type="text" class="form-control" id="name_creditor">
+                </div>
+                <div class="col-md-6">
+                    <label for="contact_creditor" class="form-label">Contact Number: </label>
+                    <input type="middle_name" class="form-control" id="contact_creditor">
+                </div>
+                <div class="col-md-12">
+                    <label for="address_creditor" class="form-label">Address: </label>
+                    <input type="text" class="form-control" id="address_creditor">
+                </div>
+                <div class="col-md-6">
+                    <label for="name_debitor" class="form-label">Name (Debitor): </label>
+                    <input type="text" class="form-control" id="name_debitor">
+                </div>
+                <div class="col-md-6">
+                    <label for="contact_debitor" class="form-label">Contact Number: </label>
+                    <input type="middle_name" class="form-control" id="contact_debitor">
+                </div>
+                <div class="col-md-12">
+                    <label for="address_debitor" class="form-label">Address: </label>
+                    <input type="text" class="form-control" id="address_debitor">
+                </div>
+
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck" onchange="toggleSubmitButton()">
+                        <label class="form-check-label" for="gridCheck">
+                            I confirm that the details provided in this application are true and have been mentioned by ourselves.
+                        </label>
+                    </div>
+                </div>
+
+                <!-- <div class="col-6"> -->
+                <button type="submit" class="btn btn-primary" id="submit_btn" style="display: none; margin: auto;"
+                    onclick="validateForm()">Submit</button>
+                <!-- </div> -->
+                <!-- <div class="col-6"> -->
+                <button type="reset" class="btn btn-primary" id="reset_btn"
+                    style="display: block; margin: auto;">Reset</button>
+                <!-- </div> -->
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+.home {
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(about_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* .home .text-overlay {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+} */
+
+.about {
+    /* background-color: antiquewhite; */
+
+}
+
+.about .py-4 p {
+    text-align: justify;
+}
+
+.about .py-4 a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 2rem;
+}

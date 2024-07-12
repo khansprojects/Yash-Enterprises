@@ -1,0 +1,36 @@
+.home {
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(services_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.home .text-overlay {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+}
+
+.service .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.service .box p {
+    text-align: justify;
+}
+
+.card {
+    margin: 1rem;
+}
