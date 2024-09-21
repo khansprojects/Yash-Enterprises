@@ -10,7 +10,7 @@
     background-size: cover;
 }
 
-/* .home .text-overlay {
+.home .text-overlay {
     position: absolute;
     top: 50vh;
     left: 50vw;
@@ -18,7 +18,7 @@
     transform: translate(-50%, -50%);
     z-index: 1;
     color: white;
-} */
+}
 
 .about {
     /* background-color: antiquewhite; */
@@ -42,4 +42,184 @@
 
 .card {
     margin: 2rem;
+}
+
+/* Our Partners */
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+    height: 50px;
+    margin: 0 40px;
+}
+
+
+
+/* Team Members */
+.carousel-container {
+    /* position: relative;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 2rem;
+    overflow: hidden;
+    text-align: center; */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.carousel-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.carousel-container .carousel-slide {
+    display: none;
+    padding: 0.25rem;
+}
+
+.carousel-container .carousel-slide p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.carousel-container .carousel-slide img {
+    width: 40%;
+    height: 40%;
+}
+
+.active {
+    display: block;
+}
+
+.carousel-container .dots-container {
+    text-align: center;
+    padding: 0rem;
+}
+
+.dots-container .dot {
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dots-container .dot.active {
+    background-color: #717171;
+}
+
+
+
+/* EMI Calculater */
+.calculator-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    height: 100%;
+    text-align: center;
+}
+
+.calculator-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+h3 {
+    color: #333;
+}
+
+#emiResult {
+    color: #FF5722;
 }
